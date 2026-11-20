@@ -1,0 +1,16 @@
+{
+  "bin": {
+    "key": "bin",
+    "module": "Financeiro",
+    "label": "BIN",
+    "method": "GET",
+    "path": "/api/v1/query/bin",
+    "params": [
+      {
+        "name": "bin",
+        "label": "BIN",
+        "required": true
+      }
+    ]
+  }
+}

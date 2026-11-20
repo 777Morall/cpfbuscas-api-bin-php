@@ -1,0 +1,25 @@
+{
+  "name": "cpfbuscas-examples/cpfbuscas-api-bin-php",
+  "type": "project",
+  "description": "API BIN do CPF Buscas em PHP: consulta de prefixos com cURL, Bearer, JSON, demonstração offline e testes.",
+  "license": "MIT",
+  "require": {
+    "php": ">=8.2",
+    "ext-curl": "*",
+    "ext-json": "*"
+  },
+  "scripts": {
+    "test": "php tests/run.php"
+  },
+  "keywords": [
+    "php",
+    "cpfbuscas",
+    "api-rest",
+    "curl",
+    "exemplos-php",
+    "api-bin",
+    "bin",
+    "bin-lookup",
+    "consulta-bin"
+  ]
+}
